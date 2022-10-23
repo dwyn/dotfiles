@@ -1,0 +1,52 @@
+# https://getantidote.github.io
+
+
+# Important Variables
+# Syntax highlighting for man pages using bat
+# bat can be used as a colorizing pager for man, by setting the MANPAGER environment variable:
+
+# export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# man 2 select
+
+# Add Visual Studio Code (code) to command line
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$path"
+
+# ZSH Options
+
+# Aliases
+alias ls="ls -lAFh"
+alias bat=cat
+
+alias ez=""
+
+alias zshrc="code ~/.local/share/chezmoi/dot_zshrc"
+alias ci="chezmoi init"
+alias cadd="chezmoi add"
+alias cdiff="chezmoi diff"
+alias capp="chezmoi -v apply"
+alias ce="chezmoi edit"
+alias ccd="chezmoi cd"
+# alias 
+# alias
+# alias
+
+# Prompts
+
+# Spaceship Prompt https://spaceship-prompt.sh/getting-started/#requirements
+source $(brew --prefix)/opt/spaceship/spaceship.zsh
+
+# Location —> $PATH Variable
+
+# Functions
+function mkcd() {
+  mkdir -p "$@" && cd "$_";
+}
+
+# Plugins
+
+
+# source antidote
+source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+
+# initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+antidote load
