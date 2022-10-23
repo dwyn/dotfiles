@@ -33,7 +33,8 @@ alias ccd="chezmoi cd"
 # Prompts
 
 # Spaceship Prompt https://spaceship-prompt.sh/getting-started/#requirements
-source $(brew --prefix)/opt/spaceship/spaceship.zsh
+# source $(brew --prefix)/opt/spaceship/spaceship.zsh
+source /usr/local/opt/spaceship/spaceship.zsh
 
 # Location —> $PATH Variable
 
