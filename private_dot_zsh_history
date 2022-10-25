@@ -1,0 +1,902 @@
+brew doctor
+sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
+chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
+brew doctor
+xcode-select --install
+test
+i dunno
+echo hello
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install neovim
+brew cleanup neovim
+brew install ranger
+brew cleanup ranger
+neovim .zshrc
+nvim .zshrc
+ls
+cd downloads
+ls
+ls -lah
+nvim .zshrc
+ls
+nvim .zshrc
+Downloads
+ls
+code -r .zshrc
+\:q!
+brew install z
+eval "$(ssh-agent -s)"
+open ~/.ssh/config
+code ~/.ssh/config
+cat ~/.ssh/id_ed25519
+cat ~/.ssh/id
+cat ~/.ssh/id_ed25519.pub
+ssh-keygen
+cd ~/.ssh/
+ls
+ls -lah
+cat id_rsa
+ssh -t ed25519 -C "sudo@dwayne.fm"
+cat ~/.ssh/idls
+ls
+cat id_ed25519.pub id_rsa
+cat id_rsa.pub
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+ssh -t ed25519 -C "10413171+dwyn@users.noreply.github.com"
+ls -lah
+rm -rf id_ed25519
+rm -rf id_ed25519.pub
+rm -rf id_rsa
+rm -rf id_rsa.pub
+ssh -t ed25519 -C "10413171+dwyn@users.noreply.github.com"
+sudo killall -HUP mDNSResponder
+ssh -t ed25519 -C "10413171+dwyn@users.noreply.github.com"
+sudo killall -HUP mDNSResponder
+ssh -t ed25519 -C "10413171+dwyn@users.noreply.github.com"
+ls -lah
+ssh-keygen -t rsa\\
+
+ssh-add ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub
+brew install chezmoi
+brew cleanup chezmoi
+$ chezmoi init\
+
+chezmoi init\
+
+uninstall_oh_my_zsh
+ls -lah
+grep  ".zsh_plugins.txt"
+open .
+touch .zsh_plugins.txt
+git add .
+git commit -m "First Blood."
+git remote add origin git@github.com:dwyn/.dotfiles.git
+git branch -M main
+git push -u origin main
+exit
+git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
+rm -rf .antidote
+brew install antidote
+brew cleanup antidote
+vim .zshrc
+vim .zshrc
+brew install chrome-export
+brew cleanup chrome-export
+ls
+ls -lah
+ls -lah | grep 'chezmoi'
+ls -lah | grep chezmoi
+chezmoi cd
+cd
+chezmoi cd
+source ~/.zshrc
+vim .zshrc
+vi .zshrc
+vim .zsh_plugins.txt
+echo $ZSH_VERSION
+$PS1
+echo $PS1
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+brew install spaceship
+mkcd .dotfiles
+source ~/.zshrc
+mkcd .dotfiles
+cd 
+git --version
+git config --global user.name "dwieb"
+git config --global user.email "10413171+dwyn@users.noreply.github.com"
+cat .gitconfig
+cd .ssh
+;s
+ls
+rm -rf id_rsa
+rm -rf id_rsa.pub
+cd 
+ssh-keygen -t rsa -b 4096 -C "10413171+dwyn@users.noreply.github.com"
+ssh-keygen -t ed25519 -C "10413171+dwyn@users.noreply.github.com"
+cat /Users/dharmon/.ssh/id_ed25519.pub
+cd .ssh
+ls
+cat id_ed25519
+cat id_ed25519.pub
+eval "$(ssh-agent -s)"
+ls
+vim config
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+ssh-add -K ~/.ssh/id_ed25519
+cd
+mv ~/.zshrc ~/.dotfiles/zshrc
+ls dotfiles
+ls .dotfiles
+ll
+ls -lah
+rm -rf .zshrc.omz-uninstalled-2022-10-22_16-33-24
+ls | grep zsh
+ls .dotfiles
+ls -s ~/.dotfiles/zshrc ~/.zshrc
+touch .zshrc
+ls -s ~/.dotfiles/zshrc ~/.zshrc
+ln -s ~/.dotfiles/zshrc ~/.zshrc
+rm -rf .zshrc
+ln -s ~/.dotfiles/zshrc ~/.zshrc
+cat .zshrc
+cd .dotfiles
+ls
+git init
+git co -b "first blood"
+git checkout -b 'v1/setup'
+git remote add origin git@github.com:dwyn/.dotfiles.git
+git branch -M main
+gs
+git status
+git add 
+git add .
+git commit -b "first blood."
+git commit -m "first blood."
+cd ~/.local/share/chezmoi
+ls
+cd 
+rm -rf .zshrc
+ls
+man mv
+open .
+vim .zshrc
+source .zshrc
+code .zshrc
+chezmoi
+chezmoi add ~/.zshrc
+chezmoi edit ~/.zshrc
+chezmoi diff
+chezmoi -v apply
+chezmoi cd
+brew install httpie
+brew cleanup httpie
+ls -lah
+brew install bat
+vim .zshrc
+vi .zshrc
+code .zshrc
+open .
+vim /usr/local/opt/spaceship/spaceship.zsh
+chezmoi merge ~/.zshrc
+code ~/.local/share/chezmoi/dot_zshrc
+cd ~/.local/share/chezmoi
+chezmoi init
+brew install chezmoi
+ls
+open .
+code .
+bash
+merge
+exit
+ls
+exit
+cat .zshrc
+bat .zshrc
+ls
+pwd
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+ls
+cat .zshrc
+zshrc
+chezmoi help
+chezmoi edit .zshrc
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+chezmoi edit .zshrc
+chezmoi apply
+chezmoi init
+chezmoi add .zsh_plugins.txt
+chezmoi add .zsh_plugins.zsh
+chezmoi managed
+chezmoi apply
+chezmoi -h
+chezmoi doctor
+chezmoi cd
+ls
+chezmoi -h
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+chezmoi -h
+which antidote
+chezmoi edit .zshrc
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+chezmoi edit .zshrc
+ls
+code -r dot_zshrc
+git status
+git add .
+git commit -m ""
+git commit -m " "
+git commit -m "okhi"
+git push
+git apply
+chezmoi apply
+chezmoi init
+chezmoi apply
+git status
+cd
+chezmoi cd
+nano
+pwd
+ls
+which owd
+which pwd
+shell built-in command --help
+built-in command --help
+help
+pwd help
+which pwd
+command --help
+command help
+command
+command ls
+echo hi
+source ~/.zhsrc
+vi
+set -o vi
+vi
+which shell
+change bash
+list
+help
+dirs
+which brew
+chezmoi init
+cd
+cd ~/.config/chezmoi/
+nano chezmoi.toml
+vi chezmoi.toml
+vim chezmoi.toml
+cat chezmoi.toml
+printf chezmoi.toml
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+vim chezmoi.toml
+ls
+ls -lah
+cd
+ls
+ chezmoi merge ~/.zshrc
+chezmoi merge-all
+chezmoi cd
+q
+git branch
+git commit
+git logs
+git log
+git status
+git add .
+git commit -m 'Not really sure if this is working or not...'
+git push
+chezmoi doctor
+ls
+code dot_zshrc
+cd
+chezmoi apply
+chezmoi help
+chezmoi purge
+chezmoi purge
+chezmoi managed
+chezmoi init
+chezmoi managed
+cat .zshrc
+vim .zshrc
+source .szhrc
+source .zshrc
+brew install spaceship
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+brew install spaceship
+antidote load
+chezmoi managed
+chezmoi add ~/.zshrc
+chezmoi -v apply
+chezmoi managed
+chezmoi -v apply
+ccd
+pwd
+ls
+cd
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+ls
+cat .zshrc
+chezmoi uninstall
+brew uninstall chezmoi
+brew doctor
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+source .zshrc
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+cd
+ls
+antidote --help
+ls
+pwd
+cd desktop
+..
+cd ..
+which chezmoi
+brew install antidote
+brew reinstall antidote
+antidote load
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+cd
+source .zshrc
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+vim .zshrc
+ls
+cd .config
+ls
+rm rf chezmoi
+rm -rf chezmoi
+ls
+cd ..
+ls
+bat zshrc
+bat .zshrc
+zshrc
+antigen
+antidote
+brew install andidote
+brew install antidote
+vim .zshrc
+ls
+vim .zsh_plugins.zsh
+vim .zsh_plugins.txt
+vim .zsh_plugins.txt
+git status
+antidote load
+pwd
+source /Users/dharmon/.zshrc
+antidote load
+ls
+brew doctor
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+chezmoi edit .zshrc
+$ chezmoi merge-all
+chezmoi merge-all
+chesmoi doctor
+cheszoi doctor
+chezmoi doctor
+chezmoi cd
+git add .
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+git add .
+git commit -m "i broke it."
+git push
+cd
+pwd
+chezmoi edit .zshrc
+chezmoi diff
+chezmoi -v apply
+chezmoi cd
+git status
+git add .
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+pwd
+git status
+git list
+git --help
+chezmoi init
+chezmoi add ~/.bashrc
+chezmoi add ~/.zshrc
+chezmoi edit ~/.zshrc
+chezmoi diff
+chezmoi -v apply
+chezmoi cd
+echo -e "\xee\x82\xa0" #> î‚ƒ€
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+echo -e "\xee\x82\xa0" #> î‚ƒ€
+ls
+pwd
+cd ~
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+pwd
+cd ~
+chezmoi apply
+cat ~/.zshrc
+ls
+pwd
+touch run_once_before_install-packages-darwin.sh.tmpl
+code run_once_before_install-packages-darwin.sh.tmpl
+cd
+ls
+cd .antidote
+ls
+cat antidote.zsh
+ls
+cd tools
+ls
+cd ..
+ls
+cd functions
+ls
+c init
+cd
+ls
+cd bin
+ls
+pwd
+brew install koekeishiya/formulae/yabai
+brew cleanup yabai
+brew services start yabai
+sudo visudo -f /private/etc/sudoers.d/yabai
+ls
+code .yabairc
+ls | grep yabai
+chmod +x ~/.yabairc
+which z
+z
+brew list
+brew z info
+z -help
+which ls
+which z
+which _z
+ls
+cd .z
+ls
+cd .z
+cat .z
+which z
+which _z 2>&1
+man page z.1
+man page z
+brew uninstall z
+ls
+open .
+chezmoi edit .zshrc
+cd
+source .zshrc
+which antidote
+code .zshrc
+brew services list
+pwd
+ls -lah
+cd /
+ls
+cd usr
+cd local
+ls
+cd bin
+ls
+cd
+curl -sfL https://git.io/chezmoi | sh
+ls
+cd bin
+ls
+..
+..
+cd ..
+rm -rf bin
+brew install postgres
+brew install postgresql@14   postgresql@15
+chezmoi cd
+code .
+pwd
+cd /home
+$PATH
+cd
+$PATH
+echo $PATH | sed $'s/:/\n/g'
+echo $PATH | sed $'s/:/\n'
+echo $PATH | sed $'s/:/\n/g'
+echo $PATH | sed $'s/:/\n/g'
+ls
+cd .zshrc
+brew list
+brew install zsh-z
+brew python
+ls
+cat zsh_plugins.txt
+cat .zsh_plugins.txt
+cat .zsh_plugins.txt
+cd
+which anditdote
+ls
+antidote
+antidote -v
+which antidote
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+$ZDOTDIR
+cat ~/.zshenv
+pwd
+ls
+brew bundle install
+mv Brewfile.local Brewfile
+ls
+brew bundle install
+chezmoi cd
+which antidote
+chezmoi git pull -- --rebase && chezmoi diff
+pwd
+ls
+cd ..
+cd 
+ls
+cd .local
+ls
+cd share
+ls
+cd chezmoi
+ls
+chezmoi git pull
+git init
+chezmoi git init
+chezmoi add .
+ls
+git remote add origin /Users/dharmon/.local/share/chezmoi
+chezmoi update
+chezmoi git pull
+git branch --set-upstream-to=origin/main
+git branch --set-upstream-to=origin/git@github.com:dwyn/.dotfiles.git
+git remote -v
+git remote add origin git@github.com:dwyn/.dotfiles.git
+ls
+git pull
+git remote add origin git@github.com:dwyn/.dotfiles.git
+git branch -M main
+git push -u origin main
+ls
+cd private_dot_local
+ls
+cd ..
+ls
+rm -rf .git
+chezmoi git init
+git remote add origin git@github.com:dwyn/.dotfiles.git
+git remote -v
+git pull
+git branch --set-upstream-to=origin/main
+brew install chezmoi 
+brew cleanup chezmoi 
+chezmoi init
+vim .zshrc
+vim .zshrc
+source .zshrc
+c diff
+c -v apply
+chezmoi diff
+chezmoi edit .zshrc
+cat .zshrc
+pwd
+which yabai
+shasum -a 256 $(which yabai)
+which zsh-z
+brew list
+antidote bundle agkozak/zsh-z
+which zsh-z
+ls
+cd .antidote
+ls
+cd tools
+ls
+cd ..
+cd functions
+ls
+cd ..
+ls
+antidote install agkozak/zsh-z
+cd antidote.zsh
+cat antidote.zsh
+cd
+ls
+cd .zsh_plugins.zsh
+cat .zsh_plugins.zsh
+ls
+cd .config
+ls
+cd chezmoi
+ls
+code chezmoi
+code -r chezmoi.toml
+chezmoi data
+cd /home/user/.dotfiles
+ls
+cd ~
+ls
+chezmoi cd
+chezmoi add
+chezmoi add .
+git status
+git add .
+git commit -m 'yep'
+chezmoi git add .
+chezmoi git push
+cat dot_zshrc
+code dot_zshrc
+chezmoi apply .
+chezmoi add .
+pwd
+chezmoi add /Users/dharmon/.local/share/chezmoi
+git add .
+git commit -m "hi"
+git push
+chezmoi apply
+chezmoi update
+cat ~/.zshrc
+gs
+git status
+cat dot_zshtc
+cat dot_zshrc
+git remote -v
+chezmoi git pull -- --rebase && chezmoi diff
+chezmoi apply
+chezmoi purge
+cd ~
+chezmoi purge
+chezmoi git pull -- --rebase && chezmoi diff
+chezmoi cd
+ls
+chezmoi get status
+chezmoi git status
+chezmoi git add .
+chezmoi git commit -m "Hai"
+chezmoi -h
+chezmoi apply
+chezmoi init
+chezmoi apply
+chezmoi update
+git add .
+git commit -m "welp"
+chezmoi update
+git push
+chezmoi data
+touch executable_dot_yabairc
+cd ~
+LS
+cd Downloads/
+ls
+chezmoi cd
+pwd
+cd ..
+cd ..
+ls
+ls -lah
+cd share
+ls
+cd chezmoi
+ls
+pwd
+which antidote
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+antidote load
+antidote help
+antido bundle
+antidote bundle
+antidote load
+antidote help
+antidote list
+chezmoi -v apply
+brew list
+chezmoi add ~/run_once_before_install-packages-darwin.sh.tmpl
+chezmoi -v apply
+chezmoi managed
+antidote load
+chezmoi managed
+chezmoi cd
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+ls
+$PATH
+echo $PATH
+which whomai
+which whoami
+cat ~/.zshenv
+ls
+cd
+code -r Brewfile
+chezmoi -v apply
+chezmoi add ~/Brewfile
+chezmoi -v apply
+chezmoi init
+chezmoi -v apply
+chezmoi init
+chezmoi init
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
+chezmoi init
+chezmoi doctor
+chezmoi cd
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+ls
+chezmoi add -r ~/.config
+cd chezmoi managed
+ls
+cd ~/.local/share/chezmoi/
+git status
+chezmoi add --template ~/Brewfile.local
+touch ~/Brewfile.local
+chezmoi add --template ~/Brewfile.local
+ls
+ls
+ls
+touch Brewfile.local.tmpl
+code -r Brewfile.local.tmpl
+touch .chezmoi.toml.tmpl
+code -r .chezmoi.toml.tmpl
+git status
+chezmoi apply
+chezmoi init
+code -r empty_Brewfile.local.tmpl
+git status
+git add .
+git commit -m 'Lets break it some more. What could possibly go wrong?'
+git push
+git remote add origin git@github.com:dwyn/.dotfiles.git
+git push -u main
+git push -u origin main
+git push -u origin main -f
+chezmoi managed
+chezmoi managed
+chezmoi apply
+chezmoi merge-all
+gs
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+ls
+chezmoi init
+chezmoi managed
+ls
+rm -rf empty_Brewfile.local.tmpl
+code -r ~/Brewfile.local
+chezmoi add --template ~/Brewfile.local
+ls
+chezmoi mananged
+chezmoi managed
+chezmoi init
+git status
+git add .
+git commit -m 'yup.'
+git push
+cd ~
+brew update
+antidote load
+antidote -h
+antidote bundle
+antidote install
+antidote update
+antidote init
+which brew
+brew install spaceship
+brew reinstall spaceship
+brew cleanup spaceship
+ls
+antidote -h
+antidote load
+antidote install spaceship
+antidote bundle spaceship-prompt/spaceship-prompt
+antidote install spaceship-prompt/spaceship-prompt
+cat /Users/dharmon/.zsh_plugins.txt
+antindote load
+antidote load
+chezmoi managaed
+chezmoi managed
+ls
+source ~/.zshrc
+which spaceship
+brew spaceship info
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+brew -h
+brew --prefix
+ls
+cd
+cd /usr/lib
+ls
+brew install spaceship
+which spaceship
+cd
+spaceship -h
+spaceship edit
+spaceship version
+spaceship help
+brew --prefix
+cd /usr/local
+ls
+cd opt
+ls
+cd
+ZDOTDIR
+$ZDOTDIR
+ls
+ls
+chezmoi apply
+chezmoi init
+chezmoi apply
+ccd
+ls
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+ls
+code -r run_once_install-packages.sh
+which shell
+which zsh
+chezmoi add  -T --autotemplate ~/.gitconfig
+chezmoi edit ~/.gitconfig
+chezmoi cat ~/.gitconfig
+chezmoi git -h
+gs
+git status
+chezmoi git add .
+HOME
+$HOME
+ls
+cd
+source ~/.zshrc
+ls
+ PATH=/bin:/usr/bin:/usr/local/bin:${PATH} && export PATH
+ls
+cd config
+ls
+cd .config
+ls
+brew --prefix
+ls
+man zcompile
+chezmoi edit .zshrc
+cd
+chezmoi manage
+chezmoi managed
+chezmoi edit .zshrc
+chezmoi
+chezmoi cd
+git clone git@git.innova-partners.com:josiah-markley/outreach_service.git
+pwd
+ls
+open .
+ls
+cd dev
+ls
+cd ..
+ch
+cz
+ls alias
+which alias
+ls
+brew doctor
+chezmoi -v
+cat .zshrc
+exit
+exit
+pwd
+/bin/zsh
+exit
+chezmoi doctor
