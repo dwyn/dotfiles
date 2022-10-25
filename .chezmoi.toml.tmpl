@@ -1,5 +1,35 @@
-{{- $email := promptString "email" -}}
-{{- $location := promptString "location" -}}
-[data]
-    email = "{{ $email }}"
-    location = "{{ $location }}"
+# {{- $email := promptString "email" -}}
+# {{- $location := promptString "location" -}}
+
+# [data]
+#    email = "{{ $email }}"
+#    location = "{{ $location }}"
+
+path = [
+  "/Users/chris/.volta/bin",
+  "/Users/chris/.cargo/bin",
+  "/usr/local/sbin",
+  "/Users/chris/bin",
+  "/Users/chris/.cargo/bin",
+  "/usr/local/bin",
+  "/usr/bin",
+  "/bin",
+  "/usr/sbin",
+  "/sbin",
+  "/Library/TeX/texbin",
+  "/Library/Apple/usr/bin",
+  "/bin",
+  "/usr/sbin",
+  "/sbin",
+  "/usr/local/bin",
+  "/usr/bin",
+  "/Users/chris/.local/bin",
+]
+prompt = "STARSHIP_SHELL= starship prompt"
+
+[env]
+EDITOR = "code -w"
+LC_ALL = "en_US.UTF-8"
+LSCOLORS = "Gxfxcxdxbxegedabagacad"
+USER = "dwieb"
+VOLTA_HOME = "/Users/chris/.volta"
