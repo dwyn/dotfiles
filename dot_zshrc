@@ -9,7 +9,14 @@
 # man 2 select
 
 # Add Visual Studio Code (code) to command line
-export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$path"
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
+export PATH=$PATH:/opt/homebrew/bin
+
+
+# Prompts
+# Spaceship Prompt https://spaceship-prompt.sh/getting-started/#requirements
+source $(brew --prefix)/opt/spaceship/spaceship.zsh
+autoload -Uz promptinit && promptinit && prompt pure
 
 # ZSH Options
 
@@ -26,15 +33,6 @@ alias cdiff="chezmoi diff"
 alias capp="chezmoi -v apply"
 alias ce="chezmoi edit"
 alias ccd="chezmoi cd"
-# alias 
-# alias
-# alias
-
-# Prompts
-
-# Spaceship Prompt https://spaceship-prompt.sh/getting-started/#requirements
-# source $(brew --prefix)/opt/spaceship/spaceship.zsh
-source /usr/local/opt/spaceship/spaceship.zsh
 
 # Location —> $PATH Variable
 
@@ -47,7 +45,8 @@ function mkcd() {
 
 
 # source antidote
-source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+# source ${ZDOTDIR:-~}/.antidote/antidote.zsh
+source ~/.antidote/antidote.zsh
 
 # initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
 antidote load
