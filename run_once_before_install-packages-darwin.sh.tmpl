@@ -7,6 +7,7 @@
 echo ""
 echo "🖖🏾 This script ought to run once from run_once_before_install-packages-darwin."
 
+# note: The Brewfile is embedded directly in the script with a bash here document. chezmoi will run this script whenever its contents change, i.e. when you add or remove brews or casks.
 brew bundle --no-lock --file=/dev/stdin <<EOF
 brew "antidote"
 brew "bat"
@@ -21,9 +22,42 @@ brew "z"
 brew "git"
 brew "readline"
 brew "zsh-async"
-
+# brew "mas"
+# brew "antidote"
+# brew "ca-certificates"
+# brew "chezmoi"
+# brew "chrome-export"
+# brew "gdbm"
+# brew "gettext"
+# brew "httpie"
+# brew "libtermkey"
+# brew "libuv"
+# brew "libvterm"
+# brew "luajit"
+# brew "luv"
+# brew "mpdecimal"
+# brew "spaceship"
+# brew "ranger"
+# brew "msgpack"
+# brew "sqlite"
+# brew "tree-sitter"
+# brew "neovim"
+# brew "openssl@1.1"
+# brew "unibilium"
+# brew "python@3.10"
+# brew "xz"
+# brew "z"
+brew "git"
+brew "readline"
+brew "zsh-async"
 cask "font-fira-code"
 cask "google-chrome"
+cask "font-fira-code"
+
+
 EOF
 
 {{ end -}}
+
+brew update
+brew cleanup
