@@ -1,1 +1,12 @@
+# https://www.zerotohero.dev/zshell-startup-files/
+# .zprofile Quirks
+
+# Apple terminal initially opens both a login and an interactive shell even though you don't authenticate (i.e., enter login credentials). That’s why .zshrc will always be loaded. However, after the first terminal session, any subsequent shells that are opened are only interactive; thus .zprofile will not be loaded.
+
+# File Load Order
+# Here’s the order these profile files are processed, without getting into too much detail:
+
+# .zshenv → .zprofile → .zshrc → .zlogin → .zlogout
+
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 [ -f /opt/homebrew/bin/brew ] && eval "$(/opt/homebrew/bin/brew shellenv)"
