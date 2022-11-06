@@ -18,6 +18,14 @@ Is there a way to do this and auto-affirm any prompts?
 --- 
 installs
 mas
+speedtest-cli  # https://formulae.brew.sh/formula/speedtest-cli
+htop  # cli activity monitor https://hisham.hm/htop/
+cask
+nvm  # https://formulae.brew.sh/formula/nvm
+tmux
+wget  # https://www.gnu.org/software/wget/
+ranger
+archey  # https://obihann.github.io/archey-osx/
 
 cask / gui installs
 1. chrome
