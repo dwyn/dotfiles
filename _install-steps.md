@@ -25,6 +25,7 @@ nvm  # https://formulae.brew.sh/formula/nvm
 tmux
 wget  # https://www.gnu.org/software/wget/
 ranger
+k9s
 archey  # https://obihann.github.io/archey-osx/
 
 cask / gui installs
