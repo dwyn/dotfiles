@@ -9,6 +9,7 @@ Is there a way to do this and auto-affirm any prompts?
 > `~/code/werk`
 > `~/code/not-werk`
 > `~/.config`
+> `~/.config/app_configs/`
 > `~/.config/zsh`
 > `~/.config/chezmoi`
 
